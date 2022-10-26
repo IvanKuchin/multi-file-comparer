@@ -2,7 +2,7 @@
 
 Usecase: If working on multiple project and some files across projects must be the same.
 
-Config file format:
+Config file in YAML-format:
 
 ```
 rootdir: /home/user/src
