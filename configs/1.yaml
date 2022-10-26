@@ -1,0 +1,58 @@
+#
+# Admin files
+#
+rootdir: /home/ikuchin/src
+subfolders: [dev.connme.ru-admin, dev.bestbounty.ru-admin, dev.infomed-stat.ru-admin, dev.timecard.ru-admin]
+files:
+  - .github/actions/linters/.eslintrc.yaml
+  - .github/actions/release-drafter/release-drafter.yml
+  - .github/actions/spelling/only.txt
+  - .github/workflows/qa.yml
+  - .github/workflows/release-deployment.yml
+  - .github/workflows/release-drafter.yml
+  - .github/workflows/sast.yml
+  - .github/workflows/spell_check.yml
+  - .github/workflows/super_linter.yml
+  - .gitignore
+  - CMakeLists.txt
+  - CMakeModules/FindLibArchive.cmake
+  - CMakeModules/FindLibAVCodec.cmake
+  - CMakeModules/FindLibAVFormat.cmake
+  - CMakeModules/FindLibAVUtil.cmake
+  - CMakeModules/FindLibHPDF.cmake
+  - CMakeModules/FindLibImageMagick.cmake
+  - CMakeModules/FindLibMaxMindDB.cmake
+  - CMakeModules/FindLibRapidJSON.cmake
+  - CMakeModules/FindLibSSL.cmake
+  - CMakeModules/FindLibSwScale.cmake
+  - CMakeModules/FindLibWebSockets.cmake
+  - CMakeModules/FindLibWkhtmlToX.cmake
+  - CMakeModules/FindLibXL.cmake
+  - CMakeModules/FindLibZ.cmake
+  - po/CMakeLists.txt
+  - supplemental/apache2/conf-available/mod_expires.conf
+  - supplemental/apache2/sites-available/099-images.conf
+  - supplemental/apache2/sites-available/099-www.conf
+  - supplemental/config/CMakeLists.txt
+  - supplemental/docker/prod/Dockerfile
+  - supplemental/docker/qa/Dockerfile
+  - supplemental/git/CMakeLists.txt
+  #- supplemental/git/git_commit_id
+  #- supplemental/ssmtp/CMakeLists.txt
+  #- supplemental/ssmtp/ssmtp.conf.in
+  - templates/CMakeLists.txt
+  - tests/auto/autotest_c_price_spelling.cpp
+  - CMakeLists.txt
+  - templates/CMakeLists.txt
+  - src/admin/CMakeLists.txt
+  - src/CMakeLists.txt
+  - supplemental/docker/prod/Dockerfile
+  - supplemental/docker/qa/Dockerfile
+  - .github/workflows/release-deployment.yml
+  - supplemental/apache2/conf-available/mod_expires.conf
+  - supplemental/apache2/sites-available/099-images.conf
+  - supplemental/apache2/sites-available/099-www.conf
+  - supplemental/config/CMakeLists.txt
+  - templates/ru/pages/admin/admin_chat_get_cnx_list.htmlt
+  - templates/ru/pages/admin/admin_chat_get_presence_cache.htmlt
+  - templates/ru/pages/admin/admin_header.htmlt

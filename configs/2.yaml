@@ -1,0 +1,33 @@
+#
+# Admin files
+#
+rootdir: /home/httpd
+subfolders: [dev.connme.ru, dev.bestbounty.ru, dev.infomed-stat.ru, dev.timecard.ru]
+files:
+  - .github/actions/linters/.eslintrc.yaml
+  - .github/actions/release-drafter/release-drafter.yml
+  - .github/workflows/release-deployment.yml
+  - .github/workflows/release-drafter.yml
+  - .github/workflows/spell_check.yml
+  - .github/workflows/super_linter.yml
+  - html/css/admin/common.css
+  - html/css/pages/common.css
+  - html/css/pages/helpdesk.css
+  - html/css/pages/login.css
+  - html/js/pages/cases_list.js
+  - html/js/pages/forget_password.js
+  - html/js/pages/helpdesk_dashboard.js
+  - html/js/pages/helpdesk_ticket_obj.js
+  - html/js/pages/login.js
+  - html/js/pages/open_case.js
+  - html/js/pages/password_recovery.js
+  - html/js/pages/pi/create_password_block.js
+  - html/js/pages/pi/domain_replacer.js
+  - html/js/pages/pi/email_change.js
+  - html/js/pages/pi/faq.js
+  - html/js/pages/pi/session.js
+  - html/js/pages/pi/sms_confirmation.js
+  - html/js/pages/pi/captcha/main.js
+  - html/js/pages/user_account_properties.js
+  - html/js/pages/view_case.js
+  - supplemental/docker/prod/Dockerfile

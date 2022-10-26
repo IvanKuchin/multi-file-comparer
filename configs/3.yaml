@@ -1,0 +1,7 @@
+#
+# Login page is different at info-med
+#
+rootdir: /home/ikuchin/src
+subfolders: [dev.connme.ru, dev.bestbounty.ru, dev.timecard.ru]
+files:
+  - templates/ru/pages/prod/login.htmlt
